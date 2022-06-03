@@ -5,8 +5,6 @@ function getEmployeeByName(employeeName) {
   if (typeof employeeName === 'undefined') {
     return {};
   }
-  // const colaborador = data.employees.find((aName) => aName.firstName === employeeName);
-  // return colaborador;
   const emName = employeeName;
   const dados = data.employees;
   const colab = dados.find((names) => (names.firstName === emName || names.lastName === emName));
